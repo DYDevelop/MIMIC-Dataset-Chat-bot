@@ -92,7 +92,7 @@ def initialize_qa_system():
         st.info("임베딩 모델을 초기화하고 벡터스토어를 생성합니다...")
 
         # 모델 설정
-        GOOGLE_API_KEY = 'AIzaSyCLCpTqrTtIoB4rftCN7vm91CLUL3tybX4'
+        GOOGLE_API_KEY = '****'
         genai.configure(api_key=GOOGLE_API_KEY)
 
         embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
