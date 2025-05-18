@@ -35,12 +35,14 @@ MIMIC 데이터셋은 구조가 복잡하고 관련 문서가 흩어져 있기 �
 ```bash
 git clone https://github.com/your-username/mimic-qa-chatbot.git
 cd mimic-qa-chatbot
+```bash
 
 ### 2. Conda 환경 구성
 
 ```bash
 conda env create -f environment.yaml
 conda activate langchain
+```bash
 
 ### 3. Ollama 설치 (Ubuntu 기준)
 로컬 LLM 실행을 위한 Ollama 설치 방법은 ollama_install.md에 포함되어 있습니다.
