@@ -102,3 +102,33 @@ python gradio_his_app.py
 - ⚙️ **멀티 인터페이스 지원**  
   Streamlit 또는 Gradio 기반 UI 제공  
   사용 환경에 따라 원하는 방식으로 실행 가능
+
+## 🖥️ 시스템 요구 사항
+
+- **운영체제**: Ubuntu 20.04 이상 권장
+- **GPU**: 최소 15GB VRAM 이상 (예: RTX 3090)
+- **RAM**: 32GB 이상
+- **저장공간**: 최소 5GB 여유 공간
+- **Python 버전**: 3.9 이상
+- **추가 요구사항**:
+  - Conda 환경 사용 권장
+  - Ollama 설치 필요 (로컬 LLM 구동 시)
+
+---
+
+## 📂 폴더 구조 예시
+
+```bash
+mimic-qa-chatbot/
+├── docs/                      # 문서 자료 모음 (PDF, DOCX, TXT 등)
+│   ├── *.pdf
+│   ├── *.docx
+│   └── *.txt
+├── app/                          # Application scripts
+│   ├── chroma_db/                # 문서 임베딩 캐시 저장소
+│   ├── app.py                    # Streamlit 로컬 실행 파일
+│   ├── app_gemini.py             # Gemini API 기반 실행 파일
+│   ├── gradio_app.py             # Gradio 기본 실행 파일
+│   └── gradio_his_app.py         # Gradio + 대화 히스토리 실행 파일
+├── environment.yaml          # Conda 환경 구성 파일
+└── README.md                 # 프로젝트 설명서
