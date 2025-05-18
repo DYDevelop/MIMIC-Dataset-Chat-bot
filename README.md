@@ -48,3 +48,34 @@ conda activate langchain
 로컬 LLM 실행을 위한 Ollama 설치 방법은 ollama_install.md에 포함되어 있습니다.
 공식 사이트: https://ollama.com
 
+## 🚀 실행 방법
+
+### ✅ Streamlit 실행
+
+- **로컬 Ollama 기반 실행:**
+
+```bash
+cd app
+streamlit run app.py
+```
+
+- **로컬 Ollama 기반 실행:**
+```bash
+cd app
+streamlit run app_gemini.py
+```
+
+### ✅ Gradio  실행
+
+- **로컬 Ollama 기반 실행:**
+
+```bash
+cd app
+python gradio_app.py
+```
+
+- **로컬 Ollama 기반 실행:**
+```bash
+cd app
+python gradio_his_app.py
+```
