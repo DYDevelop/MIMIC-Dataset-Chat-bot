@@ -59,7 +59,7 @@ cd app
 streamlit run app.py
 ```
 
-- **로컬 Ollama 기반 실행:**
+- **Gemini API 기반 실행:**
 ```bash
 cd app
 streamlit run app_gemini.py
@@ -67,14 +67,14 @@ streamlit run app_gemini.py
 
 ### ✅ Gradio  실행
 
-- **로컬 Ollama 기반 실행:**
+- **기본 Gradio UI 실행:**
 
 ```bash
 cd app
 python gradio_app.py
 ```
 
-- **로컬 Ollama 기반 실행:**
+- **히스토리(이전 질문 기억) 포함 Gradio UI 실행:**
 ```bash
 cd app
 python gradio_his_app.py
