@@ -132,3 +132,4 @@ mimic-qa-chatbot/
 │   └── gradio_his_app.py         # Gradio + 대화 히스토리 실행 파일
 ├── environment.yaml          # Conda 환경 구성 파일
 └── README.md                 # 프로젝트 설명서
+```
