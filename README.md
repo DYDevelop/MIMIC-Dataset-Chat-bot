@@ -62,7 +62,7 @@ streamlit run app.py
 - **Gemini API 기반 실행:**
 ```bash
 cd app
-streamlit run app_gemini.py
+streamlit run app_gemini.py # Google API key needed [https://ai.google.dev/]
 ```
 
 ### ✅ Gradio  실행
@@ -71,7 +71,7 @@ streamlit run app_gemini.py
 
 ```bash
 cd app
-python gradio_app.py
+python gradio_app.py 
 ```
 
 - **히스토리(이전 질문 기억) 포함 Gradio UI 실행:**
