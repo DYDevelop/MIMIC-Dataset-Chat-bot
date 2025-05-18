@@ -9,7 +9,7 @@ from langchain_chroma import Chroma
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "mimic-chatbot-75c4155f036a.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "****.json"
 
 # 앱 제목 설정
 st.set_page_config(page_title="MIMIC QA Chat Bot", page_icon="📚")
