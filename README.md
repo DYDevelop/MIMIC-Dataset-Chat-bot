@@ -5,7 +5,7 @@
 **MIMIC-QA Chatbot**은 MIMIC 데이터셋을 처음 다루거나 연구에 활용하려는 사용자들을 위해 설계된 챗봇입니다.  
 MIMIC 데이터셋은 구조가 복잡하고 관련 문서가 흩어져 있기 때문에, 이를 쉽게 탐색할 수 있도록 LangChain 기반의 RAG(Retrieval-Augmented Generation) 구조를 사용하여 챗봇 형태로 구현했습니다.
 
-이 프로젝트는 **로컬 GPU 환경 (3090 / 15GB VRAM)** 에서 실행 가능하며,  
+이 프로젝트는 **로컬 GPU 환경 (RTX 3090 / 24GB VRAM)** 에서 실행 가능하며,  
 **Ollama**의 로컬 LLM을 통해 LangChain과 연동되어 동작합니다.
 
 ---
