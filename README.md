@@ -45,7 +45,7 @@ conda activate langchain
 ```
 
 ### 3. Ollama 설치 (Ubuntu 기준)
-로컬 LLM 실행을 위한 Ollama 설치 방법은 ollama_install.md에 포함되어 있습니다.
+로컬 LLM 실행을 위한 Ollama 설치 방법은 공식 홈페이지를 참조 바랍니다.
 공식 사이트: https://ollama.com
 
 ## 🚀 실행 방법
