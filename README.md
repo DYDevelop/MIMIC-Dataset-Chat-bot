@@ -40,7 +40,7 @@ cd mimic-qa-chatbot
 ### 2. Conda 환경 구성
 
 ```bash
-conda env create -f environment.yaml # Please modify "prefix:" if needed
+conda env create -f environment.yaml
 conda activate langchain
 ```
 
